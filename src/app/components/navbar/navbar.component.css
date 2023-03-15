@@ -1,0 +1,44 @@
+.navbar{
+  height: auto;
+}
+
+
+.nabvar_logo_image{
+  height: 50px;
+  width: 100px;
+}
+
+.nav-item a{
+  font-family: var(--tipografiaGeneral);
+}
+
+
+.navbar_btn_wahtsapp{
+  border-color: var(--colorOrange);
+}
+
+.navbar-toggler{
+border: none !important;
+}
+
+.navbar-toggler:hover{
+  border: none !important;
+  }
+
+.navbar-toggler-bars{
+  color: var(--colorOrange);
+  height: 11.428571701049805px;
+width: 15px;
+border-radius: 0px;
+}
+
+.navbar_btn_wahtsapp_span--hidden{
+display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar_btn_wahtsapp_span--hidden{
+    display: block;
+    }
+    
+}
