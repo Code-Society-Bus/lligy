@@ -5,13 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { AboutAndServicesComponent } from './components/about-and-services/about-and-services.component';
+import { AboutComponent } from './components/about-and-services/about/about.component';
+import { ServiceLligyComponent } from './components/about-and-services/service-lligy/service-lligy.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CarouselComponent
+    CarouselComponent,
+    AboutAndServicesComponent,
+    AboutComponent,
+    ServiceLligyComponent
   ],
   imports: [
     BrowserModule,

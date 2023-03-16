@@ -17,14 +17,14 @@ display: flex !important;
 
 .nav-item a{
   font-family: var(--tipografiaGeneral);
-  color: var(--colorBlack);
+  color: var(--colorBlackDark);
 }
 
 
 .navbar_btn_wahtsapp{
-  border-color: var(--colorOrange);
+  border-color: var(--colorOrangeDark);
   width: auto;
-  color: var(--colorBlack);
+  color: var(--colorBlackDark);
 }
 
 .navbar-toggler{
@@ -36,7 +36,7 @@ border: none !important;
   }
 
 .navbar-toggler-bars{
-  color: var(--colorOrange);
+  color: var(--colorOrangeDark);
   height: 11.428571701049805px;
 width: 15px;
 border-radius: 0px;

@@ -1,0 +1,156 @@
+
+.service_lligy_card {
+  width: 250px;
+  transition: all .3s;
+  border-radius: 0px 50px;
+}
+
+.service_lligy_card:hover {
+  transform: scale(1.03);
+}
+
+.service_lligy_card{
+  border: 2px solid var(--colorOrangeLigth);
+  box-shadow:  6px 6px 0px var(--colorOrangeLigth);
+}
+
+.service_lligy_container_service {
+  display: grid;
+  height: 270px;
+  overflow: hidden;
+  padding: 0em 1em;
+}
+
+.service_lligy_icon{
+  font-size: 30px;
+  margin: 0.5em;
+font-weight: bolder;
+color: var(--colorBlack);
+}
+
+.service_lligy_title{
+  font-family: var(--tipografiaGeneral);
+font-size: 20px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0em;
+}
+
+.service_lligy_description{
+  font-family: var(--tipografiaGeneral);
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+}
+
+@media only screen and (min-width: 375px) {
+  .service_lligy_card {
+    width: 255px;
+   
+  }
+  
+  .service_lligy_container_service {
+    height: 270px;
+    padding: 0em 1em;
+  }
+  
+  .service_lligy_icon{
+  font-size: 26px;
+  }
+  
+  .service_lligy_title{
+  font-size: 21px;
+  }
+  
+  .service_lligy_description{
+  font-size: 19px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+.service_lligy_container_card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3em;
+}
+
+.service_lligy_card {
+  width: 200px;
+ 
+}
+
+.service_lligy_container_service {
+  height: 250px;
+}
+
+.service_lligy_icon{
+font-size: 24px;
+}
+
+.service_lligy_title{
+font-size: 19px;
+}
+
+.service_lligy_description{
+font-size: 17px;
+}
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .service_lligy_container_card{
+    gap: 5em;
+  }
+  
+  .service_lligy_card {
+    width: 250px;
+   
+  }
+  
+  .service_lligy_container_service {
+    height: 270px;
+  }
+  
+  .service_lligy_icon{
+  font-size: 28px;
+  }
+  
+  .service_lligy_title{
+  font-size: 20px;
+  }
+  
+  .service_lligy_description{
+  font-size: 19px;
+  }
+  
+  }
+
+  @media only screen and (min-width: 1335px) {
+    .service_lligy_container_card{
+      gap: 8em;
+    }
+    
+    .service_lligy_card {
+      width: 270px;
+     
+    }
+    
+    .service_lligy_container_service {
+      height: 290px;
+    }
+    
+    .service_lligy_icon{
+    font-size: 30px;
+    }
+    
+    .service_lligy_title{
+    font-size: 22px;
+    }
+    
+    .service_lligy_description{
+    font-size: 21px;
+    }
+    
+    }

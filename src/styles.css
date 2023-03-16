@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root{
-  --colorOrange: #DB6B0E;
+  --colorOrangeDark: #DB6B0E;
+  --colorOrangeLigth: #D49627;
   --colorBlack: #3D1B00;
   --tipografiaGeneral: 'Roboto', sans-serif;
 }
