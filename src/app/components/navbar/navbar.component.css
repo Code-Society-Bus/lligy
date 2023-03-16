@@ -2,6 +2,13 @@
   height: auto;
 }
 
+.navbar-container{
+width: 100%;
+display: flex !important;
+  justify-content: space-between !important;
+}
+
+
 
 .nabvar_logo_image{
   height: 50px;
@@ -10,11 +17,14 @@
 
 .nav-item a{
   font-family: var(--tipografiaGeneral);
+  color: var(--colorBlack);
 }
 
 
 .navbar_btn_wahtsapp{
   border-color: var(--colorOrange);
+  width: auto;
+  color: var(--colorBlack);
 }
 
 .navbar-toggler{
@@ -37,8 +47,38 @@ display: none;
 }
 
 @media only screen and (min-width: 1024px) {
+  
   .navbar_btn_wahtsapp_span--hidden{
     display: block;
+  }
+
+  .navbar_btn_wahtsapp{
+    width: 170px;
+  }
+
+  .navbar_container_image{
+    width: 30%;
+  }
+  .nabvar_container_ul{
+    width: 30%;
+  }
+  
+  .navbar_container_button_wahtsapp{
+    width: 20%;
+  }
     }
-    
-}
+
+
+    @media only screen and (min-width: 1336px) {
+        .navbar_container_button_wahtsapp{
+          width: 15%;
+        }
+
+        .navbar_btn_wahtsapp{
+          width: 170px;
+        }
+
+        .navbar-nav{
+        font-size: 25px;
+        }
+        }
