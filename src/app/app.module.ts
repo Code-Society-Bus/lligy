@@ -22,7 +22,7 @@ import { OurServicesComponent } from './components/our-services/our-services.com
     OurServicesComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],
