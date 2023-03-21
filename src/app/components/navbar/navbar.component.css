@@ -22,9 +22,9 @@ display: flex !important;
 
 
 .navbar_btn_wahtsapp{
-  border-color: var(--colorOrangeDark);
+  border: none ;
   width: auto;
-  color: var(--colorBlackDark);
+  color: var(--colorOrangeDark);
 }
 
 .navbar-toggler{
@@ -47,13 +47,16 @@ display: none;
 }
 
 @media only screen and (min-width: 1024px) {
-  
+
   .navbar_btn_wahtsapp_span--hidden{
     display: block;
   }
 
+
   .navbar_btn_wahtsapp{
+    border:1px solid  var(--colorOrangeDark) ;
     width: 170px;
+    color: var(--colorBlackDark);
   }
 
   .navbar_container_image{
@@ -62,7 +65,7 @@ display: none;
   .nabvar_container_ul{
     width: 30%;
   }
-  
+
   .navbar_container_button_wahtsapp{
     width: 20%;
   }

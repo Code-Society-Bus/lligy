@@ -3,6 +3,7 @@
 
 :root{
   --colorOrangeDark: #DB6B0E;
+  --colorOrangeTransparent: rgba(219, 107, 14, 0.8);
   --colorOrangeLigth: #D49627;
   --colorBlack: #3D1B00;
   --tipografiaGeneral: 'Roboto', sans-serif;

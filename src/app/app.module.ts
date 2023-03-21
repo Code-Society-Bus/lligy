@@ -8,6 +8,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { AboutAndServicesComponent } from './components/about-and-services/about-and-services.component';
 import { AboutComponent } from './components/about-and-services/about/about.component';
 import { ServiceLligyComponent } from './components/about-and-services/service-lligy/service-lligy.component';
+import { OurServicesComponent } from './components/our-services/our-services.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ServiceLligyComponent } from './components/about-and-services/service-l
     CarouselComponent,
     AboutAndServicesComponent,
     AboutComponent,
-    ServiceLligyComponent
+    ServiceLligyComponent,
+    OurServicesComponent
   ],
   imports: [
     BrowserModule,
