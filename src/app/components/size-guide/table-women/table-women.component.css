@@ -1,0 +1,142 @@
+.size-guide-container-table-woman{
+ position: relative;
+
+}
+
+.size-guide-container-table-woman{
+  width: 100% ;
+}
+
+
+.size-guide-container-table--table-woman{
+  position: absolute;
+  z-index: 1;
+  right: 1%;
+}
+
+
+.size-guide-container-table-icon-woman-img {
+  box-sizing: border-box;
+  position: absolute;
+  width: 96px;
+  left: 0%;
+  z-index: 0;
+}
+
+
+
+.size-guide-container-table--table-women--th{
+  width: 43px;
+height: 18px;
+font-family:  var(--tipografiaGeneral);
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+}
+
+.size-guide-container-table--table-women--td{
+  width: 17px;
+height: 18px;
+font-family: var(--tipografiaGeneral);
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+}
+
+@media only screen and (min-width: 375px) {
+  .size-guide-container-table--table-woman{
+    left: 10%;
+    width: 285px;
+  }
+
+
+  .size-guide-container-table-icon-woman-img {
+    left: 1%;
+    z-index: 0;
+  }
+  }
+
+
+  @media only screen and (min-width: 425px) {
+    .size-guide-container-table--table-woman{
+      left: 22%;
+      width: 285px;
+    }
+
+
+    .size-guide-container-table-icon-woman-img {
+      left: 1%;
+    }
+    }
+
+    @media only screen and (min-width: 768px) {
+      .size-guide-container-table--table-woman{
+        left: 40%;
+        width: 300px;
+
+      }
+
+
+      .size-guide-container-table-icon-woman-img {
+        left: 18%;
+        height: 180px;
+      }
+
+      .size-guide-container-table--table-women--th{
+ font-size: 16px;
+      }
+
+      .size-guide-container-table--table-women--td{
+         font-size: 16px;
+      }
+      }
+
+      @media only screen and (min-width: 1024px) {
+        .size-guide-container-table--table-woman{
+          left: 40%;
+          width: 350px;
+          height: 220px;
+        }
+
+
+        .size-guide-container-table-icon-woman-img {
+          left: 19%;
+          width: 110px;
+          height: 220px;
+        }
+
+        .size-guide-container-table--table-women--th{
+   font-size: 18px;
+        }
+
+        .size-guide-container-table--table-women--td{
+           font-size: 18px;
+        }
+      }
+
+      @media only screen and (min-width: 1335px) {
+        .size-guide-container-table--table-woman{
+          left: 560px;
+          width: 250px;
+          height: 200px;
+        }
+
+
+        .size-guide-container-table-icon-woman-img {
+          margin-left: 450px;
+          width: 100px;
+          height: 200px;
+        }
+
+        .size-guide-container-table--table-women--th{
+   font-size: 18px;
+        }
+
+        .size-guide-container-table--table-women--td{
+           font-size: 18px;
+        }
+      }
+
+

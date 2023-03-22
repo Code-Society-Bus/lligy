@@ -1,0 +1,146 @@
+
+.size-guide {
+  display: flex;
+  flex-direction: column;
+}
+
+.size-guide-container-title{
+  position: relative;
+}
+
+.size-guide-container-title--title{
+  font-family: var(--tipografiaGeneral);
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: var(--colorBlack);
+margin-bottom: 0;
+}
+
+.size-guide-title-icon{
+  position: absolute;
+left: 15%;
+bottom: 55%;
+}
+
+.size-guide-container-title--paragraph{
+  font-family: var(--tipografiaGeneral);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+
+.size-guide-container-talles{
+display: flex;
+flex-direction: column;
+gap: 13em;
+}
+
+
+@media only screen and (min-width: 375px) {
+  .size-guide-title-icon{
+  left: 21%;
+  bottom: 55%;
+  }
+  }
+
+  @media only screen and (min-width: 425px) {
+    .size-guide-title-icon{
+    left: 25%;
+    bottom: 55%;
+    }
+    }
+
+    @media only screen and (min-width: 768px) {
+
+.size-guide-container-title--title{
+font-size: 19px;
+margin-bottom: 0.5em;
+}
+
+.size-guide-container-talles{
+  gap: 15em;
+  }
+
+.size-guide-title-icon{
+  position: absolute;
+left: 34%;
+bottom: 45%;
+}
+
+.size-guide-container-title--paragraph{
+  font-size: 16px;
+}
+      }
+
+
+      @media only screen and (min-width: 1024px) {
+        .size-guide-container-title--title{
+          font-size: 22px;
+          margin-bottom: 0.5em;
+          }
+
+          .size-guide-container-talles{
+            gap: 17em;
+            }
+
+          .size-guide-title-icon{
+            position: absolute;
+          left: 37%;
+          bottom: 45%;
+          }
+
+          .size-guide-container-title--paragraph{
+            font-size: 17px;
+          }
+
+      }
+
+
+      @media only screen and (min-width: 1336px) {
+
+        .size-guide-container-title{
+          width: 20%;
+        }
+
+        .size-guide-container-title--title{
+          font-size: 18px;
+          margin-bottom: 0.5em;
+          }
+
+          .size-guide-container-talles{
+            gap: 17em;
+            }
+
+          .size-guide-title-icon{
+            position: absolute;
+          left: 18%;
+          bottom: 55%;
+          }
+
+          .size-guide-container-title--paragraph{
+            font-size: 10px;
+          }
+
+
+        .size-guide {
+          display: flex;
+          flex-direction: row;
+        }
+
+        .size-guide-container-talles{
+          display: flex;
+          flex-direction: row;
+          gap: 1em;
+          }
+
+              }
+
+
+
+
+

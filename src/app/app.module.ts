@@ -9,6 +9,8 @@ import { AboutAndServicesComponent } from './components/about-and-services/about
 import { AboutComponent } from './components/about-and-services/about/about.component';
 import { ServiceLligyComponent } from './components/about-and-services/service-lligy/service-lligy.component';
 import { OurServicesComponent } from './components/our-services/our-services.component';
+import { SizeGuideComponent } from './components/size-guide/size-guide.component';
+import { SizeGuideModule } from './components/size-guide/size-guide.module';
 
 
 @NgModule({
@@ -19,11 +21,13 @@ import { OurServicesComponent } from './components/our-services/our-services.com
     AboutAndServicesComponent,
     AboutComponent,
     ServiceLligyComponent,
-    OurServicesComponent
+    OurServicesComponent,
+    SizeGuideComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    AppRoutingModule
+    AppRoutingModule,
+    SizeGuideModule
   ],
   providers: [],
   bootstrap: [AppComponent]

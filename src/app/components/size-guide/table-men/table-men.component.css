@@ -1,0 +1,145 @@
+
+.size-guide-container-table{
+ position: relative;
+ width: 100%;
+}
+
+.size-guide-container-table{
+  width: 100%;
+}
+
+.size-guide-container-table--table{
+  left: 1%;
+  position: absolute;
+  z-index: 1;
+}
+
+.size-guide-container-table-icon-man-img {
+  box-sizing: border-box;
+  position: absolute;
+width: 96px;
+  right: -2%;
+  top: 6%;
+  z-index: 0;
+}
+
+.size-guide-container-table--table--th{
+  width: 43px;
+height: 18px;
+font-family:  var(--tipografiaGeneral);
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+}
+
+.size-guide-container-table--table--td{
+  width: 17px;
+height: 18px;
+font-family:  var(--tipografiaGeneral);
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+}
+
+
+
+@media only screen and (min-width: 375px) {
+  .size-guide-container-table--table{
+    left: 1%;
+    width: 285px;
+  }
+
+  .size-guide-container-table-icon-man-img {
+    right: 1%;
+    top: 6%;
+  }
+
+}
+
+@media only screen and (min-width: 425px) {
+  .size-guide-container-table--table{
+    left: 1%;
+    width: 285px;
+  }
+
+  .size-guide-container-table-icon-man-img {
+    right: 0%;
+    top: 6%;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .size-guide-container-table--table{
+    left: 15%;
+    width: 300px;
+    height: 200px;
+  }
+
+  .size-guide-container-table-icon-man-img {
+    left: 66%;
+    top: 6%;
+    height: 195px;
+  }
+
+  .size-guide-container-table--table--th{
+  font-size: 16px;
+  }
+
+  .size-guide-container-table--table--td{
+  font-size: 16px;
+  }
+}
+
+
+ @media only screen and (min-width: 1024px) {
+  .size-guide-container-table--table{
+    left: 17%;
+    width: 350px;
+    height: 220px;
+  }
+
+  .size-guide-container-table-icon-man-img {
+    left: 65%;
+    top: 6%;
+    width: 110px;
+    height: 220px;
+  }
+
+  .size-guide-container-table--table--th{
+  font-size: 18px;
+  }
+
+  .size-guide-container-table--table--td{
+  font-size: 18px;
+  }
+      }
+
+
+      @media only screen and (min-width: 1336px) {
+        .size-guide-container-table--table{
+          left: 140px;
+          width: 250px;
+          height: 200px;
+        }
+
+        .size-guide-container-table-icon-man-img {
+          left: 130%;
+          top: 6%;
+          width: 90px;
+          height: 200px;
+        }
+
+        .size-guide-container-table--table--th{
+        font-size: 18px;
+        }
+
+        .size-guide-container-table--table--td{
+        font-size: 18px;
+        }
+            }
+
+
+
