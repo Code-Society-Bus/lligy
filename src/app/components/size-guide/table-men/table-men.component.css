@@ -142,4 +142,29 @@ line-height: 18px;
             }
 
 
+      @media only screen and (min-width: 1440px) {
+        .size-guide-container-table--table{
+          left: 230px;
+          width: 300px;
+          height: 250px;
+        }
+
+        .size-guide-container-table-icon-man-img {
+          left: 285%;
+          top: 6%;
+          width: 120px;
+          height: 250px;
+        }
+
+        .size-guide-container-table--table--th{
+        font-size: 20px;
+        }
+
+        .size-guide-container-table--table--td{
+        font-size: 20px;
+        }
+            }
+
+
+
 

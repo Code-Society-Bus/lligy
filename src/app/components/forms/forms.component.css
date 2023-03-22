@@ -1,0 +1,157 @@
+.forms{
+  background-image: url("../../../assets/forms/background-forms.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px dashed #FFFFFF;
+  height: 336px;
+width: 100%;
+border-radius: 0px;
+margin-top: 13em;
+}
+
+.forms-container{
+  height: 275px;
+width: 260px;
+border-radius: 0px;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.forms-container-title{
+  font-family: var(--tipografiaGeneral);
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+.forms-container-div-name{
+display: none;
+}
+
+.forms-container-div-telephone{
+  display: none;
+  }
+
+  .forms-container-div-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    gap: 10px;
+    width: 50%;
+background: var(--colorOrangeDark);
+border-radius: 5px;
+  }
+
+  .forms-container-div-button--button{
+    color: #FFFFFF;
+    font-family: var(--tipografiaGeneral);
+  }
+
+  @media only screen and (min-width: 768px) {
+    .forms{
+      height: 436px;
+    margin-top: 13em;
+    }
+
+    
+.forms-container{
+  height: 300px;
+width: 300px;
+    margin-top: 5em;
+}
+
+.forms-container-title{
+font-size: 21px;
+}
+
+  .forms-container-div-button--button{
+    font-size: 15px;
+
+  }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .forms{
+      height: 445px;
+    margin-top: 15em;
+    }
+
+    
+.forms-container{
+  height: 350px;
+width: 350px;
+    margin-top: 3em;
+}
+
+.forms-container-title{
+font-size: 23px;
+}
+
+  .forms-container-div-button--button{
+    font-size: 16px;
+  }
+
+  .forms-container-div-name{
+    display: flex;
+    }
+    
+    .forms-container-div-telephone{
+      display: flex;
+      }
+
+    .forms-container-div-input{
+      width: 270px;
+    }
+    
+  }
+
+  @media only screen and (min-width: 1336px) {
+    .forms{
+    margin-top: 12em;
+    }
+
+.forms-container-title{
+font-size: 24px;
+}
+
+  .forms-container-div-button--button{
+    font-size: 17px;
+  }
+
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .forms{
+      height: 500px;
+    }
+
+    
+.forms-container{
+  height: 400px;
+width: 400px;
+    margin-top: 3em;
+}
+
+.forms-container-title{
+font-size: 25px;
+}
+
+  .forms-container-div-button--button{
+    font-size: 18px;
+  }
+
+    .forms-container-div-input{
+      width: 300px;
+    }
+
+  }

@@ -37,7 +37,7 @@ bottom: 55%;
 .size-guide-container-talles{
 display: flex;
 flex-direction: column;
-gap: 13em;
+gap: 8em;
 }
 
 
@@ -139,6 +139,43 @@ bottom: 45%;
           }
 
               }
+
+
+              @media only screen and (min-width: 1440px) {
+
+
+
+                .size-guide-container-title--title{
+                  font-size: 22px;
+                  margin-bottom: 0.5em;
+                  }
+
+                  .size-guide-container-talles{
+                    gap: 17em;
+                    }
+
+                  .size-guide-title-icon{
+                  left: 11%;
+                  bottom: 53%;
+                  }
+
+                  .size-guide-container-title--paragraph{
+                    font-size: 15px;
+                  }
+
+
+                .size-guide {
+                  display: flex;
+                  flex-direction: row;
+                }
+
+                .size-guide-container-talles{
+                  display: flex;
+                  flex-direction: row;
+                  gap: 1em;
+                  }
+
+                      }
 
 
 
