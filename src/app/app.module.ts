@@ -13,6 +13,7 @@ import { SizeGuideComponent } from './components/size-guide/size-guide.component
 import { SizeGuideModule } from './components/size-guide/size-guide.module';
 import { FormsComponent } from './components/forms/forms.component';
 import { OurClientsComponent } from './components/our-clients/our-clients.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { OurClientsComponent } from './components/our-clients/our-clients.compon
     OurServicesComponent,
     SizeGuideComponent,
     FormsComponent,
-    OurClientsComponent
+    OurClientsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

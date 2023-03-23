@@ -20,7 +20,7 @@
 }
 
 .navbar_btn_wahtsapp {
-  border-color: var(--colorOrangeDark);
+  border: none;
   width: auto;
   color: var(--colorOrangeDark);
 }
@@ -51,6 +51,8 @@
   }
 
   .navbar_btn_wahtsapp {
+    border: solid 1px var(--colorOrangeDark);
+    
     width: 170px;
     color: var(--colorBlackDark);
   }
