@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TableMenComponent } from './table-men/table-men.component';
 import { TableWomenComponent } from './table-women/table-women.component';
+import { SharedModule } from 'src/app/shared/component/shared.module';
 
 
 
@@ -11,7 +12,8 @@ import { TableWomenComponent } from './table-women/table-women.component';
     TableWomenComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ],
   exports: [
     TableMenComponent,

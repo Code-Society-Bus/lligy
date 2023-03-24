@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TableMenService } from './services/table-men.service';
 
 @Component({
   selector: 'app-table-men',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./table-men.component.css']
 })
 export class TableMenComponent {
+  constructor(private tableMenService: TableMenService){}
 
+  get data(){
+    return this.tableMenService.data
+  }
 }

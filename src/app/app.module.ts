@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { AboutAndServicesComponent } from './components/about-and-services/about-and-services.component';
 import { AboutComponent } from './components/about-and-services/about/about.component';
@@ -14,12 +13,12 @@ import { SizeGuideModule } from './components/size-guide/size-guide.module';
 import { FormsComponent } from './components/forms/forms.component';
 import { OurClientsComponent } from './components/our-clients/our-clients.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SharedModule } from './shared/component/shared.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
     CarouselComponent,
     AboutAndServicesComponent,
     AboutComponent,
@@ -33,6 +32,7 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
+    SharedModule,
     SizeGuideModule
   ],
   providers: [],

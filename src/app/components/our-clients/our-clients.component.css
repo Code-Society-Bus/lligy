@@ -21,9 +21,9 @@
 .ourClients-line-dashed{
   position: absolute;
   top: 7px;
-  left: 66%;
+  left: 63%;
   border: 3px dashed var(--colorOrangeDark);
- width: 120px;
+ width: 50%;
  height: 0px;
 }
 
@@ -138,8 +138,8 @@ border-radius: 50%;
 @media only screen and (min-width:375px) {
 
   .ourClients-line-dashed{
-    left: 55%;
-   width: 185px;
+    left: 53%;
+   width: 60%;
   }
 
   .ourClients-container-logos{
@@ -178,74 +178,8 @@ border-radius: 50%;
 
 
   .ourClients-line-dashed{
-    left: 48%;
-   width: 235px;
-  }
-
-
-  .ourClients-container-logos--div{
-    height: 55px;
-  width: 125px;
-  }
-
-  .ourClients-container-logos--div-paragraph{
-  font-size: 15px;
-  margin-top: 1.1em;
-  }
-
-
-  .ourClients-container-opinan-title{
-  font-size: 20px;
-  }
-
-  .ourClients-container-opinan-line-dashed{
-    width: 255px;
-  }
-
-  .ourClients-container-opinan-title--boxes-box{
-  width: 300px;
-  height: 155px;
-  padding: 5px;
-  }
-
-  .ourClients-container-opinan-title--boxes-box-paragraph-box{
-    width: 128px;
-  height: 58px;
-  }
-
-  .ourClients-container-opinan-title--boxes-box-paragraph{
-    font-size: 11px;
-    margin-top: -3em;
-  }
-
-  .ourClients-container-opinan-title--boxes-box-paragraph-client{
-  font-size: 11px;
-  margin-bottom: 0em;
-  }
-
-  .ourClients-container-opinan-title--boxes-box-img{
-    width: 108.25px;
-    height: 108.25px;
-  }
-
-  .ourClients-container-opinan-boxes-box-img--img{
-    width: 85%;
-    height: 85%;
-  }
-
-}
-
-
-@media only screen and (min-width:425px) {
-
-  .ourClients-title{
-    font-size: 17px;
-  }
-
-
-  .ourClients-line-dashed{
-    left: 48%;
-   width: 230px;
+    left: 47%;
+    width: 65%;
   }
 
 
@@ -311,8 +245,8 @@ border-radius: 50%;
 
 
   .ourClients-line-dashed{
-    left: 32.5%;
-   width: 535px;
+    left: 31.5%;
+   width:85%;
   }
 
 
@@ -385,8 +319,8 @@ border-radius: 50%;
 
 
   .ourClients-line-dashed{
-    left: 29%;
-   width: 685px;
+    left: 26%;
+   width: 90%;
   }
 
 
@@ -432,8 +366,8 @@ border-radius: 50%;
 
 
   .ourClients-line-dashed{
-    left: 25.5%;
-   width: 900px;
+    left: 24.5%;
+   width: 97%;
   }
 
 
@@ -499,7 +433,7 @@ border-radius: 50%;
 
 }
 
-@media only screen and (min-width: 1336px) {
+@media only screen and (min-width: 1440px) {
 
   .ourClients-title{
     font-size: 26px;
@@ -507,8 +441,8 @@ border-radius: 50%;
 
 
   .ourClients-line-dashed{
-    left: 23%;
-   width: 1020px;
+    left: 22%;
+   width: 95%;
   }
 }
 

@@ -11,28 +11,28 @@
       </thead>
       <tbody>
         <tr>
-          <th class="size-guide-container-table--table--th" scope="row">S</th>
-          <td class="size-guide-container-table--table--td">92</td>
-          <td class="size-guide-container-table--table--td">96</td>
-          <td class="size-guide-container-table--table--td">70</td>
+          <th class="size-guide-container-table--table--th" scope="row">{{data[0].talle}}</th>
+          <td class="size-guide-container-table--table--td">{{data[0].pecho}}</td>
+          <td class="size-guide-container-table--table--td">{{data[0].cadera}}</td>
+          <td class="size-guide-container-table--table--td">{{data[0].cintura}}</td>
         </tr>
         <tr>
-          <th class="size-guide-container-table--table--th" scope="row">M</th>
-          <td class="size-guide-container-table--table--td">100</td>
-          <td class="size-guide-container-table--table--td">104</td>
-          <td class="size-guide-container-table--table--td">78</td>
+          <th class="size-guide-container-table--table--th" scope="row">{{data[1].talle}}</th>
+          <td class="size-guide-container-table--table--td">{{data[1].pecho}}</td>
+          <td class="size-guide-container-table--table--td">{{data[1].cadera}}</td>
+          <td class="size-guide-container-table--table--td">{{data[1].cintura}}</td>
         </tr>
         <tr>
-          <th class="size-guide-container-table--table--th" scope="row">L</th>
-          <td class="size-guide-container-table--table--td">104</td>
-          <td class="size-guide-container-table--table--td">108</td>
-          <td class="size-guide-container-table--table--td">82</td>
+          <th class="size-guide-container-table--table--th" scope="row">{{data[2].talle}}</th>
+          <td class="size-guide-container-table--table--td">{{data[2].pecho}}</td>
+          <td class="size-guide-container-table--table--td">{{data[2].cadera}}</td>
+          <td class="size-guide-container-table--table--td">{{data[2].cintura}}</td>
         </tr>
         <tr>
-          <th class="size-guide-container-table--table--th" scope="row">XL</th>
-          <td class="size-guide-container-table--table--td">112</td>
-          <td class="size-guide-container-table--table--td">116</td>
-          <td class="size-guide-container-table--table--td">90</td>
+          <th class="size-guide-container-table--table--th" scope="row">{{data[3].talle}}</th>
+          <td class="size-guide-container-table--table--td">{{data[3].pecho}}</td>
+          <td class="size-guide-container-table--table--td">{{data[3].cadera}}</td>
+          <td class="size-guide-container-table--table--td">{{data[3].cintura}}</td>
         </tr>
       </tbody>
     </table>
@@ -42,3 +42,5 @@
   <img class="size-guide-container-table-icon-man-img" src="../../../assets/size-guide/man-img.png">
 </div>
 </div>
+
+<pre>{{data[0].talle | json}}</pre>
