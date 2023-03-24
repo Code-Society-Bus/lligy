@@ -1,8 +1,8 @@
 export const sizes: any[] = [
   {
     talle: 'S',
-    pecho: 94,
-    cadera: 94,
+    pecho: 92,
+    cadera: 96,
     cintura: 76,
   },
   {

@@ -1,26 +1,26 @@
 export const sizes: any[] = [
   {
     talle: 'S',
-    pecho: 92,
-    cadera: 96,
-    cintura: 70,
+    pecho: 94,
+    cadera: 94,
+    cintura: 76,
   },
   {
     talle: 'M',
-    pecho: 10,
-    cadera: 104,
-    cintura: 78,
+    pecho: 102,
+    cadera: 102,
+    cintura: 84,
   },
   {
     talle: 'L',
-    pecho: 104,
-    cadera: 108,
-    cintura: 82,
+    pecho: 106,
+    cadera: 106,
+    cintura: 88,
   },
   {
     talle: 'XL',
-    pecho: 112,
-    cadera: 116,
-    cintura: 90,
+    pecho: 114,
+    cadera: 114,
+    cintura: 96,
   },
 ];
