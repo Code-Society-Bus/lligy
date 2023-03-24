@@ -14,10 +14,6 @@
   width: 100px;
 }
 
-.nav-item a {
-  font-family: var(--tipografiaGeneral);
-  color: var(--colorBlackDark);
-}
 
 .navbar_btn_wahtsapp {
   border: none;
@@ -50,9 +46,25 @@
     display: block;
   }
 
+  .navbar-nav {
+    gap: 1em;
+  }
+
+  .nav-item a {
+  font-family: var(--tipografiaGeneral);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #5F5F5F;
+  }
+
   .navbar_btn_wahtsapp {
     border: solid 1px var(--colorOrangeDark);
-    
+
     width: 170px;
     color: var(--colorBlackDark);
   }
@@ -79,6 +91,29 @@
   }
 
   .navbar-nav {
-    font-size: 25px;
+    gap: 3em;
   }
+
+  .nav-item a {
+    font-size: 17px;
+    }
+
 }
+
+@media only screen and (min-width: 1440px) {
+  .navbar_container_button_wahtsapp {
+    width: 16%;
+  }
+
+  .navbar_btn_wahtsapp {
+    width: 180px;
+  }
+
+
+
+  .nav-item a {
+    font-size: 18px;
+    }
+
+}
+

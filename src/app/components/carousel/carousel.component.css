@@ -1,15 +1,16 @@
 .carousel-img-text {
   position: absolute;
-  width: 250px;
+  width: auto;
   font-family: var(--tipografiaGeneral);
-  /* top: 50%; */
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 15px;
-  letter-spacing: 0;
- /*  left: 11%; */
-
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .carousel-item{
@@ -38,8 +39,7 @@
 
 @media only screen and (min-width: 375px) {
   .carousel-img-text {
-    width: 255px;
-    font-size: 16px;
+    font-size: 25px;
     /* left: 15%; */
   }
 
@@ -49,10 +49,10 @@
 }
 
 @media only screen and (min-width: 425px) {
+
   .carousel-img-text {
-    width: 280px;
-    font-size: 17px;
-    /* left: 18%; */
+    font-size: 28px;
+    /* left: 15%; */
   }
 
   .carousel-image {
@@ -62,8 +62,7 @@
 
 @media only screen and (min-width: 768px) {
   .carousel-img-text {
-    width: 340px;
-    font-size: 17px;
+    font-size: 35px;
     /* left: 26%; */
   }
 
@@ -82,9 +81,7 @@
 
 @media only screen and (min-width: 1024px) {
   .carousel-img-text {
-    width: 600px;
-    font-size: 30px;
- /*    left: 22%; */
+    font-size: 50px;
   }
 
   .carousel-image {
@@ -102,10 +99,16 @@
 
 @media only screen and (min-width: 1335px) {
   .carousel-img-text {
-   /*  left: 27%; */
+   font-size: 60px;
   }
 
   .carousel-image {
     height: 650px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .carousel-img-text {
+   font-size: 65px;
   }
 }
