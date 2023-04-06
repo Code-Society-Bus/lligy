@@ -26,22 +26,43 @@
   margin: 0.5em;
 font-weight: bolder;
 color: var(--colorBlack);
+width: 22.62px;
+height: 30px;
+flex: none;
+order: 0;
+flex-grow: 0;
 }
+
 
 .service_lligy_title{
   font-family: var(--tipografiaGeneral);
-font-size: 20px;
-font-weight: 500;
-line-height: 23px;
-letter-spacing: 0em;
+  width: 103px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
 }
 
 .service_lligy_description{
   font-family: var(--tipografiaGeneral);
-font-size: 18px;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0em;
+  width: 150px;
+  height: 99px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
 @media only screen and (min-width: 375px) {
@@ -60,11 +81,11 @@ letter-spacing: 0em;
   }
 
   .service_lligy_title{
-  font-size: 21px;
+  font-size: 15px;
   }
 
   .service_lligy_description{
-  font-size: 19px;
+  font-size: 15px;
   }
 }
 
@@ -86,15 +107,15 @@ letter-spacing: 0em;
 }
 
 .service_lligy_icon{
-font-size: 24px;
+font-size: 27px;
 }
 
 .service_lligy_title{
-font-size: 19px;
+font-size: 15px;
 }
 
 .service_lligy_description{
-font-size: 17px;
+font-size: 15px;
 }
 
 }
@@ -104,25 +125,30 @@ font-size: 17px;
     gap: 5em;
   }
 
-  .service_lligy_card {
-    width: 250px;
 
+
+  .service_lligy_card {
+    width: 265px !important;
   }
 
   .service_lligy_container_service {
-    height: 270px;
+    Height:290px;
   }
 
   .service_lligy_icon{
-  font-size: 28px;
+  font-size: 25px;
   }
 
   .service_lligy_title{
-  font-size: 20px;
+    font-size: 20px;
+    width: 184px;
+    height: auto;
   }
 
   .service_lligy_description{
-  font-size: 19px;
+  width: 184px;
+height: 149px;
+font-size: 20px;
   }
 
   }
@@ -138,19 +164,28 @@ font-size: 17px;
     }
 
     .service_lligy_container_service {
-      height: 290px;
+      height: 330px;
+    }
+
+    .service_lligy_container_service {
+      Height:290px;
     }
 
     .service_lligy_icon{
-    font-size: 30px;
+    font-size: 25px;
     }
 
     .service_lligy_title{
-    font-size: 22px;
+      font-size: 20px;
+      width: 184px;
+      height: auto;
     }
 
     .service_lligy_description{
-    font-size: 21px;
+    width: 184px;
+  height: 149px;
+  font-size: 20px;
     }
+
 
     }

@@ -1,46 +1,50 @@
-.carousel-img-text {
+ .carousel-img-text {
   position: absolute;
-  width: auto;
   font-family: var(--tipografiaGeneral);
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 28px;
-display: flex;
-align-items: center;
-text-align: center;
 color: #FFFFFF;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-.carousel-item{
-  display: grid;
- align-items: center;
- justify-items: center;
+.swiper-container{
+  position: relative;
+  height: 100%;
 }
 
-.carousel-control-next {
-  left: 94% !important;
-  width: 5% !important;
+.swiper {
+  width: 100%;
+  height: 100%;
 }
 
-.carousel-control-prev {
-  right: 90% !important;
-  width: 5% !important;
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.carousel-control-prev-left {
-  font-weight: 900;
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.carousel-control-next-right {
-  font-weight: 900;
+
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 15px !important;
+  font-size: 900 !important;
+  color: #fff;
 }
 
 @media only screen and (min-width: 375px) {
   .carousel-img-text {
     font-size: 25px;
-    /* left: 15%; */
   }
 
   .carousel-image {
@@ -50,9 +54,12 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 @media only screen and (min-width: 425px) {
 
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 16px !important;
+  }
+
   .carousel-img-text {
     font-size: 28px;
-    /* left: 15%; */
   }
 
   .carousel-image {
@@ -61,25 +68,27 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media only screen and (min-width: 768px) {
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 19px !important;
+  }
+
   .carousel-img-text {
     font-size: 35px;
-    /* left: 26%; */
+
   }
 
   .carousel-image {
     height: 200px;
   }
 
-  .fa-angle-right {
-    font-size: 1.2rem !important;
-  }
-
-  .fa-angle-left {
-    font-size: 1.2rem !important;
-  }
 }
 
 @media only screen and (min-width: 1024px) {
+
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 25px !important;
+  }
+
   .carousel-img-text {
     font-size: 50px;
   }
@@ -88,16 +97,15 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: 650px;
   }
 
-  .fa-angle-right {
-    font-size: 2rem !important;
-  }
-
-  .fa-angle-left {
-    font-size: 2rem !important;
-  }
 }
 
-@media only screen and (min-width: 1335px) {
+ @media only screen and (min-width: 1335px) {
+
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 30px !important;
+  }
+
+
   .carousel-img-text {
    font-size: 60px;
   }
@@ -108,6 +116,10 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media only screen and (min-width: 1440px) {
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 35px !important;
+  }
+
   .carousel-img-text {
    font-size: 65px;
   }
