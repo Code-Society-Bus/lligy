@@ -1,16 +1,17 @@
 
 .footer-container{
-  height: 727px;
+  height: 600px;
 width: 100%;
   background: #DB6300;
 border-top: 3px dashed #FFFFFF;
 border-bottom: 3px dashed #FFFFFF;
-padding: 1em 2em;
 }
 
 .footer-container-form{
   background-color: #FFFFFF;
-  padding: 1em 2em;
+  width: 85%;
+  position: relative;
+  bottom: 3px;
 }
 
 .footer-container-img-forms{
@@ -22,8 +23,13 @@ padding: 1em 2em;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
+  padding-top: 1em;
   line-height: 23px;
   color: #000000;
+}
+
+.footer-form-container-div-input{
+border-radius: 0% !important;
 }
 
 .footer-form-container-div-paragraph--paragraph{
@@ -80,6 +86,9 @@ font-weight: 700;
 font-size: 15px;
 line-height: 18px;
 color: #FFFFFF;
+display: flex;
+justify-content: center;
+flex-direction: column;
 }
 
 .footer-container--container-siguenos-icon{
@@ -118,11 +127,11 @@ width: 200px;
   .footer-container--container-two-date-ubication{
   font-size: 16px;
   }
-  
+
   .footer-container--container-two-date-direction{
   font-size: 16px;
   }
-  
+
   .footer-container--container-siguenos-paragraph{
   font-size: 16px;
   }
@@ -157,11 +166,11 @@ width: 200px;
   .footer-container--container-two-date-ubication{
   font-size: 17px;
   }
-  
+
   .footer-container--container-two-date-direction{
   font-size: 17px;
   }
-  
+
   .footer-container--container-siguenos-paragraph{
   font-size: 17px;
   }
@@ -181,11 +190,11 @@ width: 200px;
       height: 400px;
 width: 400px;
     }
-    
+
     .footer-container--container-three-title{
     font-size: 17px;
     }
-    
+
 
 }
 
@@ -196,11 +205,11 @@ width: 400px;
   .footer-container--container-two-date-ubication{
   font-size: 18px;
   }
-  
+
   .footer-container--container-two-date-direction{
   font-size: 18px;
   }
-  
+
   .footer-container--container-siguenos-paragraph{
   font-size: 18px;
   }
@@ -210,11 +219,11 @@ width: 400px;
     }
 
 
- 
+
     .footer-container--container-three-title{
     font-size: 18px;
     }
-    
+
 
 }
 
