@@ -37,11 +37,11 @@ flex-grow: 0;
 .service_lligy_title{
   font-family: var(--tipografiaGeneral);
   width: 103px;
-  height: 48px;
+  height: auto;;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: initial;
   display: flex;
   align-items: center;
   text-align: center;
@@ -51,11 +51,11 @@ flex-grow: 0;
 .service_lligy_description{
   font-family: var(--tipografiaGeneral);
   width: 150px;
-  height: 99px;
+  height: auto;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: initial;
   display: flex;
   align-items: center;
   text-align: center;
@@ -103,7 +103,7 @@ flex-grow: 0;
 }
 
 .service_lligy_container_service {
-  height: 250px;
+  height: auto;
 }
 
 .service_lligy_icon{
@@ -112,10 +112,12 @@ font-size: 27px;
 
 .service_lligy_title{
 font-size: 15px;
+
 }
 
 .service_lligy_description{
 font-size: 15px;
+
 }
 
 }
@@ -132,7 +134,7 @@ font-size: 15px;
   }
 
   .service_lligy_container_service {
-    Height:290px;
+    Height:auto;
   }
 
   .service_lligy_icon{
@@ -141,13 +143,12 @@ font-size: 15px;
 
   .service_lligy_title{
     font-size: 20px;
-    width: 184px;
-    height: auto;
+   width: 184px;
+
   }
 
   .service_lligy_description{
-  width: 184px;
-height: 149px;
+width: 184px;
 font-size: 20px;
   }
 
@@ -164,26 +165,22 @@ font-size: 20px;
     }
 
     .service_lligy_container_service {
-      height: 330px;
+      height: auto;
     }
 
-    .service_lligy_container_service {
-      Height:290px;
-    }
 
     .service_lligy_icon{
     font-size: 25px;
+    width: auto;
     }
 
     .service_lligy_title{
       font-size: 20px;
-      width: 184px;
-      height: auto;
+      width: auto;
     }
 
     .service_lligy_description{
-    width: 184px;
-  height: 149px;
+
   font-size: 20px;
     }
 
