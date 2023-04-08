@@ -27,7 +27,7 @@
   </button>
 </div>
  -->
- <div class="swiper-container">
+<!--  <div class="swiper-container">
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -46,34 +46,51 @@
         <img src="../../../assets/img-carousel/image 4.png" class="carousel-image d-block w-100" alt="imagen rapida atencion">
         <p class="carousel-img-text text-center">RÁPIDA CAPACIDAD DE ATENCIÓN</p>
       </div>
-     <!-- <div class="swiper-slide">
+      <div class="swiper-slide">
        <img [src]="image.url" alt="{{ image.alt }}" />
-     </div> -->
+     </div>
      <div class="swiper-button-prev carousel-botton-prev"></div>
      <div class="swiper-button-next carousel-botton-next"></div>
    </div>
    </div>
- </div>
+ </div> -->
 
 
-<!-- Slider main container -->
-<!-- <div class="swiper">
-
-  <div class="swiper-wrapper" *ngFor="let image of images">
-
-    <img [src]="image.url" alt="{{ image.alt }}" />
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    ...
-  </div>
-
-  <div class="swiper-pagination"></div>
 
 
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-
-
-  <div class="swiper-scrollbar"></div>
-</div> -->
+<mdb-carousel [controls]="true" [indicators]="true" [animation]="'fade'">
+  <mdb-carousel-item>
+   <div class="carousel-box-container">
+    <img
+      src="../../../assets/img-carousel/image 1.png"
+      class="carousel-image d-block w-100"
+      alt="..."
+    />
+    <p class="carousel-img-text text-center">ASESORÍA EN LA CALIDAD DE LA TELA</p>
+   </div>
+  </mdb-carousel-item>
+  <mdb-carousel-item>
+    <img
+      src="../../../assets/img-carousel/image 2.png"
+      class="carousel-image d-block w-100"
+      alt="..."
+    />
+    <p class="carousel-img-text text-center">MÁS DE 15 AÑOS DE EXPERIENCIA</p>
+  </mdb-carousel-item>
+  <mdb-carousel-item>
+    <img
+      src="../../../assets/img-carousel/imagen 3.png"
+      class="carousel-image d-block w-100"
+      alt="..."
+    />
+    <p class="carousel-img-text text-center">BORDADO COMPUTARIZADO DE CALIDAD</p>
+  </mdb-carousel-item>
+  <mdb-carousel-item>
+    <img
+      src="../../../assets/img-carousel/image 4.png"
+      class="carousel-image d-block w-100"
+      alt="..."
+    />
+    <p class="carousel-img-text text-center">RÁPIDA CAPACIDAD DE ATENCIÓN</p>
+  </mdb-carousel-item>
+</mdb-carousel>

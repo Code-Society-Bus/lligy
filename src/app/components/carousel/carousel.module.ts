@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
-import { CarouselModule } from 'ngx-owl-carousel-o';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { CarouselComponent } from './carousel.component';
+import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
+import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
 
 
 
@@ -13,11 +14,12 @@ import { CarouselComponent } from './carousel.component';
   imports: [
     CommonModule,
     BrowserModule,
-    CarouselModule
+     MdbCheckboxModule,
+     MdbCarouselModule
   ],
   exports: [
     CarouselComponent
   ]
 })
-export class CarrouselModule { }
+export class CarouselModule { }
 
