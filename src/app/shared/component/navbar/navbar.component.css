@@ -21,9 +21,6 @@
   color: var(--colorOrangeDark);
 }
 
-.navbar-toggler {
-  border: none !important;
-}
 
 .navbar-toggler:hover {
   border: none !important;

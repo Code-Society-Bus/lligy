@@ -1,2 +1,15 @@
-@import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
+.carousel-indicators{
+  display: none !important;
+}
+
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+
+
+
 
