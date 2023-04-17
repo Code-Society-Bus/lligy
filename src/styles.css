@@ -21,3 +21,7 @@ textarea{
   resize: none;
 }
 
+body{
+  min-width: 320px;
+}
+
