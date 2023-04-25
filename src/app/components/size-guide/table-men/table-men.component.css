@@ -21,12 +21,13 @@ table{
 }
 
 .size-guide-container-table-icon-man-img {
-  box-sizing: border-box;
-  position: absolute;
-width: 96px;
-  right: -2%;
-  top: 6%;
-  z-index: 0;
+    box-sizing: border-box;
+    position: absolute;
+    width: 96px;
+    height: 150px;
+    left: 209px;
+    top: 24px;
+    z-index: 0;
 }
 
 .size-guide-container-table--table--th{
@@ -57,7 +58,7 @@ line-height: 18px;
   }
 
   .size-guide-container-table-icon-man-img {
-    right: 6%;
+    left: 236px;
   }
 
   .size-guide-container-table--table--th{
@@ -73,7 +74,7 @@ line-height: 18px;
   }
 
   .size-guide-container-table-icon-man-img {
-    right: 11%;
+    left: 263px;
   }
 
   .size-guide-container-table--table--th{
@@ -89,8 +90,10 @@ line-height: 18px;
   }
 
   .size-guide-container-table-icon-man-img {
-    right: 18%;
-    width: 142px;
+    width: 110px;
+    height: 210px;
+    left: 444px;
+    top: 39px;
   }
 
   .size-guide-container-table--table--th{
@@ -112,8 +115,10 @@ line-height: 18px;
   }
 
   .size-guide-container-table-icon-man-img {
-    right: 18%;
-    width: 173px;
+    width: 140px;
+    height: 258px;
+    left: 619px;
+    top: 39px;
   }
 
   .size-guide-container-table--table--th{
@@ -134,14 +139,28 @@ line-height: 18px;
       }
 
 
+
+      @media only screen and (min-width: 1200px) {
+        .size-guide-container-table--table{
+          left: 29%;
+        }
+
+        .size-guide-container-table-icon-man-img {
+          left: 698px;
+        }
+      }
+
+
       @media only screen and (min-width: 1336px) {
         .size-guide-container-table--table{
           left: 190px;
         }
 
         .size-guide-container-table-icon-man-img {
-          left: 33px;
-          width: 144px;
+          left: 113px;
+    width: 144px;
+    height: 217px;
+    top: 28px;
         }
 
         .size-guide-container-table--table--th{
@@ -168,8 +187,7 @@ line-height: 18px;
         }
 
         .size-guide-container-table-icon-man-img {
-          left: 60px;
-          width: 144px;
+          left: 143px;
         }
 
         .size-guide-container-table--table--th{

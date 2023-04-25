@@ -22,11 +22,12 @@ table{
 
 .size-guide-container-table-icon-woman-img {
   box-sizing: border-box;
-  position: absolute;
-  width: 96px;
-  right: 67%;
-  height: 176px;
-  z-index: 0;
+    position: absolute;
+    width: 96px;
+    top: 21px;
+    right: 177px;
+    height: 155px;
+    z-index: 0;
 }
 
 
@@ -58,11 +59,8 @@ line-height: 18px;
 
 
   .size-guide-container-table-icon-woman-img {
-    width: 96px;
-    right: 71%;
-    height: 176px;
+    right: 228px;
   }
-
 
 
   .size-guide-container-table--table-women--th{
@@ -80,9 +78,8 @@ line-height: 18px;
 
 
     .size-guide-container-table-icon-woman-img {
-      right: 73%;
+      right: 271px;
     }
-
 
 
     .size-guide-container-table--table-women--th{
@@ -98,9 +95,10 @@ line-height: 18px;
 
 
       .size-guide-container-table-icon-woman-img {
-        right: 64%;
-    width: 120px;
-    height: 252px;
+        width: 120px;
+        top: 38px;
+        left: 117px;
+        height: 212px;
       }
 
 
@@ -123,9 +121,10 @@ line-height: 18px;
 
 
         .size-guide-container-table-icon-woman-img {
-          right: 65%;
-          width: 173px;
-          height: 303px;
+          width: 160px;
+          top: 40px;
+          left: 145px;
+          height: 260px;
         }
 
 
@@ -143,6 +142,22 @@ line-height: 18px;
         }
       }
 
+
+      @media only screen and (min-width: 1200px) {
+        .size-guide-container-table--table-woman{
+          right: 31%;
+        }
+
+
+        .size-guide-container-table-icon-woman-img {
+          width: 160px;
+          top: 40px;
+          left: 232px;
+          height: 260px;
+        }
+      }
+
+
       @media only screen and (min-width: 1335px) {
        .size-guide-container-table-woman{
         margin-bottom: 0em;
@@ -153,9 +168,10 @@ line-height: 18px;
 
 
       .size-guide-container-table-icon-woman-img {
-        left: 445px;
-    width: 145px;
-    height: 246px;
+        left: 527px;
+    width: 150px;
+    height: 220px;
+    top: 26px;
       }
 
 
@@ -184,9 +200,7 @@ line-height: 18px;
 
 
         .size-guide-container-table-icon-woman-img {
-          left: 515px;
-      width: 145px;
-      height: 246px;
+          left: 598px;
         }
 
 

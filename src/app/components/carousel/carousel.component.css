@@ -16,20 +16,20 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 .carousel-control-prev{
   position: absolute;
-  left: -6%;
-  right: 110.42%;
+  left: 4px;
   top: 23.33%;
   bottom: 40%;
   opacity: 3.5;
+  width: 4px;
 }
 
 .carousel-control-next{
   position: absolute;
-  left: 89.13%;
-  /* right: 1.14%; */
+  left: 96.13%;
   top: 30.67%;
   bottom: 46.67%;
-opacity: 3.5;
+  opacity: 3.5;
+  width: 4px;
 }
 
 .carouser-button-icon {
@@ -77,28 +77,28 @@ cursor: pointer;
   }
 
   .carousel-control-prev{
-    left: -6%;
+    left: 4px;
     right: 110.42%;
     top: 23.33%;
     bottom: 40%;
   }
-  
+
   .carousel-control-next{
-    left: 89.13%;
+    left: 97.13%;
     top: 30.67%;
-    bottom: 46.67%;
+    bottom: 46.67%
   }
 
   .carouser-button-icon {
     font-size: 30px;
   }
-  
+
 }
 
 @media only screen and (min-width: 1024px) {
 
 
-  
+
   .carousel-img-text {
     font-size: 36px;
     bottom: 255px;
@@ -109,14 +109,14 @@ cursor: pointer;
   }
 
   .carousel-control-prev{
-    left: -6%;
+    left: 4px;
     right: 110.42%;
     top: 23.33%;
     bottom: 40%;
   }
-  
+
   .carousel-control-next{
-    left: 89.13%;
+    left: 97.13%;
     top: 29.67%;
     bottom: 46.67%;
   }
@@ -138,14 +138,14 @@ cursor: pointer;
   }
 
   .carousel-control-prev{
-    left: -6%;
+    left: 4px;
     right: 110.42%;
     top: 23.33%;
     bottom: 40%;
   }
-  
+
   .carousel-control-next{
-    left: 89.13%;
+    left: 97.13%;
     top: 30.67%;
     bottom: 46.67%;
   }
