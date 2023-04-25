@@ -1,39 +1,42 @@
-import { Component } from '@angular/core';
-import { Swiper } from 'swiper';
-
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.css']
 })
-export class CarouselComponent {
+export class CarouselComponent  {
 
-  images = [
+
+
+
+  items = [
     {
-      url: '../../../assets/img-carousel/image 1.png',
-      alt: 'imagen calidad tela'
+      image: '../../../assets/img-carousel/image 1.png"',
+      nombre: 'ASESORÍA EN LA CALIDAD DE LA TELA',
+      button1: '',
+      alt:''
     },
     {
-      url: '../../../assets/img-carousel/image 2.png',
-      alt: 'imagen 15 años experiencia'
+      image: '../../../assets/img-carousel/image 2.png',
+      nombre:'MÁS DE 15 AÑOS DE EXPERIENCIA',
+      button2: '',
+      alt:''
     },
     {
-      url: '../../../assets/img-carousel/imagen 3.png',
-      alt: 'imagen bordado computarizado'
+      image: '../../../assets/img-carousel/imagen 3.png',
+      nombre:'BORDADO COMPUTARIZADO DE CALIDAD',
+      button3: '',
+      alt:''
     },
     {
-      url: '../../../assets/img-carousel/image 4.png',
-      alt: 'imagen rapida atencion'
+      image: '../../../assets/img-carousel/image 4.png',
+      nombre:'RÁPIDA CAPACIDAD DE ATENCIÓN',
+      button4: '',
+      alt:''
     }
-  ];
+  ]
 
-  swiper = new Swiper(".mySwiper", {
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
 }
 
 

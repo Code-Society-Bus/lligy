@@ -30,3 +30,7 @@ li {
   text-decoration: none;
   list-style: none !important;
 }
+
+a {
+  text-decoration: none;
+}

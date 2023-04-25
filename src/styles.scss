@@ -13,6 +13,47 @@
 }
 
 
+.carousel-indicators{
+  display: flex !important;
+  bottom: 20% !important;
+  left: 0% !important;
+  gap: 0.5em;
+}
 
+.carousel-indicators [data-bs-target]{
+  background: var(--colorOrangeLigth) !important;
+  border-radius: 50% !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
 
+.carousel-indicators .active{
+  background: white !important;
+  border-radius: 50% !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
 
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  opacity: 10;
+}
+
+@media only screen and (min-width: 768px) {
+  .carousel-indicators{
+    bottom: 12% !important;
+  }
+  
+  .carousel-indicators [data-bs-target]{
+    width: 20px !important;
+    height: 20px !important;
+  }
+  
+  .carousel-indicators .active{
+    width: 20px !important;
+    height: 20px !important;
+  }
+}

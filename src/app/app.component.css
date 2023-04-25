@@ -51,6 +51,7 @@ display:none;
 .navbar_btn_wahtsapp_span--hidden {
   display: none;
   white-space: nowrap;
+  color:#5F5F5F;
 }
 
 .nabvar_container_ul-li a{
@@ -73,7 +74,13 @@ color:  #FFFFFF;
 display: none;
 }
 
+.icono-whatsapp--desktop{
+  display:none;
+}
 
+.carrusel-container{
+  margin-top: 4em;
+}
 
 @media only screen and (min-width: 1024px) {
 
@@ -96,10 +103,7 @@ display: none;
     display:none;
     }
 
-  .navbar_container_button_wahtsapp2 {
-    width: 14%;
-  }
-
+ 
   .nabvar_container_ul-li--desktop{
     font-family: var(--tipografiaGeneral);
 font-style: normal;
@@ -140,6 +144,8 @@ display: flex;
     width: 18%;
   }
 
+  
+  
   .navbar-toggler {
     display: none !important;
   }
@@ -151,6 +157,7 @@ display: flex;
     .navbar_container_image{
       display: none;
       }
+
 
 }
 

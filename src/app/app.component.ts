@@ -29,8 +29,9 @@ export class AppComponent {
   }
 
 
-
-
-
+  imgSrc: string = '../../../../assets/icono-whatsapp-desktops.png';
+  imgHoverSrc: string = '../../../../assets/icono-whatsapp-hover.png';
+  
+  isHovered = true;
 }
 

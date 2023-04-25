@@ -14,13 +14,37 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 160px;
 }
 
+.carousel-control-prev{
+  position: absolute;
+  left: -6%;
+  right: 110.42%;
+  top: 23.33%;
+  bottom: 40%;
+  opacity: 3.5;
+}
 
+.carousel-control-next{
+  position: absolute;
+  left: 89.13%;
+  /* right: 1.14%; */
+  top: 30.67%;
+  bottom: 46.67%;
+opacity: 3.5;
+}
 
+.carouser-button-icon {
+  font-weight: 900 !important;
+  color: #FFFFFF;
+  font-size: 20px;
+  width:7.64px;
+height:15.93px;
+cursor: pointer;
+}
 
 @media only screen and (min-width: 375px) {
   .carousel-img-text {
-    font-size: 19px;
-    bottom: 113px;
+    font-size: 17px;
+    bottom: 94px;
   }
 
   .carousel-image {
@@ -30,11 +54,9 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 @media only screen and (min-width: 425px) {
 
-
-
   .carousel-img-text {
-    font-size: 21px;
-    bottom: 130px;
+    font-size: 20px;
+    bottom: 107px;
   }
 
   .carousel-image {
@@ -47,37 +69,85 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   .carousel-img-text {
     font-size: 25px;
-    bottom: 175px;
+    bottom: 187px;
   }
 
   .carousel-image {
     height: 350px;
   }
 
+  .carousel-control-prev{
+    left: -6%;
+    right: 110.42%;
+    top: 23.33%;
+    bottom: 40%;
+  }
+  
+  .carousel-control-next{
+    left: 89.13%;
+    top: 30.67%;
+    bottom: 46.67%;
+  }
+
+  .carouser-button-icon {
+    font-size: 30px;
+  }
+  
 }
 
 @media only screen and (min-width: 1024px) {
 
+
+  
   .carousel-img-text {
     font-size: 36px;
-    bottom: 320px;
+    bottom: 255px;
   }
 
   .carousel-image {
     height: 650px;
   }
 
+  .carousel-control-prev{
+    left: -6%;
+    right: 110.42%;
+    top: 23.33%;
+    bottom: 40%;
+  }
+  
+  .carousel-control-next{
+    left: 89.13%;
+    top: 29.67%;
+    bottom: 46.67%;
+  }
+
+  .carouser-button-icon {
+    font-size: 45px;
+  }
 }
 
  @media only screen and (min-width: 1335px) {
 
   .carousel-img-text {
     font-size: 40px;
-    bottom: 320px;
+    bottom: 339px;
   }
 
   .carousel-image {
     height: 650px;
+  }
+
+  .carousel-control-prev{
+    left: -6%;
+    right: 110.42%;
+    top: 23.33%;
+    bottom: 40%;
+  }
+  
+  .carousel-control-next{
+    left: 89.13%;
+    top: 30.67%;
+    bottom: 46.67%;
   }
 }
 
@@ -85,6 +155,6 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
    .carousel-img-text {
     font-size: 45px;
-    bottom: 320px;
+    bottom: 366px;
   }
 }

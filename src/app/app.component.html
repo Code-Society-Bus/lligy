@@ -11,7 +11,7 @@
           <img class="nabvar_logo_image"src="../../../assets/LligyGroup.png" alt="lligy-logo"/>
         </div>
         <div class="navbar_container_button_wahtsapp1">
-          <button class="navbar_btn_wahtsapp btn btn-ligth d-flex flex-row align-items-center gap-2"><img class="icono-whatsapp" src="../../../../assets/icono-whatsapp.png"/><span class="navbar_btn_wahtsapp_span--hidden">+51 999 411 512</span></button>
+          <button class="navbar_btn_wahtsapp btn btn-ligth d-flex flex-row align-items-center gap-2"><img class="icono-whatsapp1" src="../../../../assets/icono-whatsapp.png"/><span class="navbar_btn_wahtsapp_span--hidden">+51 999 411 512</span></button>
          </div>
       </div>
       <div class="nabvar_container_ul collapse navbar-collapse mt-1" id="navbarSupportedContent">
@@ -57,13 +57,18 @@
           </ul>
         </div>
         <div class="navbar_container_button_wahtsapp2">
-          <button class="navbar_btn_wahtsapp btn btn-ligth d-flex flex-row align-items-center gap-2"><img class="icono-whatsapp" src="../../../../assets/icono-whatsapp-desktops.png"/><span class="navbar_btn_wahtsapp_span--hidden">+51 999 411 512</span></button>
+          <button class="navbar_btn_wahtsapp btn btn-ligth d-flex flex-row align-items-center gap-2" (mouseout)="isHovered=true" (mouseover)="isHovered= false" [ngStyle]="{'background-color': isHovered ? '#FFFFFF' : 'var(--colorOrangeDark)'}">
+            <img class="icono-whatsapp" 
+            [src]="isHovered ? '../../../../assets/icono-whatsapp-desktops.png' : '../../../../assets/icono-whatsapp-hover.png'"
+            />
+            <a href="https://walink.co/+51 999 411 512" target="_blank" [ngStyle]="{'color': isHovered ? '#5F5F5F' : '#FFFFFF'}" class="navbar_btn_wahtsapp_span--hidden">+51 999 411 512</a>
+          </button>
          </div>
       </div>
   </nav>
 
 </div>
-<div>
+<div class="carrusel-container">
   <app-carousel></app-carousel>
 </div>
 <div>

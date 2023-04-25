@@ -15,7 +15,7 @@ import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
     CommonModule,
     BrowserModule,
      MdbCheckboxModule,
-     MdbCarouselModule
+     MdbCarouselModule,
   ],
   exports: [
     CarouselComponent
