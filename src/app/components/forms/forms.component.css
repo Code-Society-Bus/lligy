@@ -9,8 +9,8 @@ margin-top: 13em;
 }
 
 .forms-container{
-  height: 230px;
-  Width: 90%;
+  height: 250px;
+  Width: 85%;
 border-radius: 0px !important;
 display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@ display: flex;
     justify-content: center;
     margin-top: 3em;
     position: relative;
-    top: 18%;
+    top: 12%;
 }
 
 .forms-container-title{
@@ -44,13 +44,15 @@ border-radius: 0px !important;
   }
 
   .forms-container-div-input{
-    width: 245px;
+    width: 100%;
     margin-bottom: 1em;
     border-color: #000000;
     border-radius: 0px !important;
-
   }
 
+.forms-container-div-textarea{
+  width: 100%;
+}
 
 
   .forms-container-div-button{
@@ -77,21 +79,15 @@ border-radius: 5px;
     top: 16%;
     }
 
-    .forms-container-div-input{
-      width: 290px;
-    }
   }
 
   @media only screen and (min-width: 425px) {
     .forms-container{
       height: 250px;
-
       top: 11%;
+      width: 80%;
     }
 
-    .forms-container-div-input{
-      width: 330px;
-    }
   }
 
 
@@ -101,14 +97,11 @@ border-radius: 5px;
     margin-top: 17em;
     }
 
-    .forms-container-div-input{
-      width: 620px;
-    }
 
 .forms-container{
   height: 360px;
-
-  top: 10%;
+  top: 11%;
+  width: 345px;
 }
 
 .forms-container-title{
@@ -121,6 +114,15 @@ font-size: 21px;
   .forms-container-div-button{
     width: 20%;
   }
+
+  .forms-container-div-input{
+    width: 293px;
+  }
+
+#forms-container-id-textarea{
+  width: 293px;
+  min-height: 185px !important;
+}
   }
 
   @media only screen and (min-width: 1024px) {
@@ -130,19 +132,20 @@ font-size: 21px;
     }
 
     .forms-container-div-input{
-      width: 850px;
+      width: 489px;
     }
+  
+  #forms-container-id-textarea{
+    width: 489px;
+    height: 150px !important;
+  }
 
-    .forms-container-div-textarea textarea{
-      height: 100px;
-    }
 
-
-.forms-container{
-
-Height: 509px;
-  top: 10%;
-}
+  .forms-container{
+    height: 500px;
+    top: 11%;
+    width: 605px;
+  }
 
 .forms-container-title{
 font-size: 23px;
@@ -171,13 +174,20 @@ font-size: 23px;
 .forms-container-title{
 font-size: 24px;
 }
-
 .forms-container-div-input{
-  width: 1100px;
+  width: 489px;
 }
 
-.forms-container-div-textarea textarea{
-  height: 150px;
+#forms-container-id-textarea{
+width: 489px;
+height: 150px !important;
+}
+
+
+.forms-container{
+height: 500px;
+top: 11%;
+width: 605px;
 }
 
 
@@ -195,7 +205,6 @@ font-size: 24px;
 
 
 .forms-container{
-
     margin-top: 3em;
 }
 
@@ -207,8 +216,5 @@ font-size: 25px;
     font-size: 18px;
   }
 
-    .forms-container-div-input{
-      width: 1200px;
-    }
 
   }

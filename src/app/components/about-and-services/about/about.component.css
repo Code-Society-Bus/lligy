@@ -91,8 +91,11 @@ color: #000000;
 
     .about_container_img-desktop{
       display: flex;
-      width: 100px;
-    height: 50px;
+      height: 50.03822326660156px;
+      width: 118.42431640625px;
+      /* left: 0px; */
+      /* top: 0px; */
+      border-radius: 0px;
     }
 
   .about_container_title{
@@ -113,9 +116,11 @@ width: 100%;
   }
 
   .about_container_texto{
-    font-size: 20px;
-    padding-left: 0em !important;
-    padding-right: 0em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 38px;
+    width: 100%;
   }
 }
 
@@ -126,9 +131,5 @@ width: 100%;
 
   .about_container_subTitle{
   font-size: 28px;
-  }
-
-  .about_container_texto{
-  font-size: 23px;
   }
 }
