@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
+
 
 
 @Component({
@@ -14,5 +15,12 @@ export class NavbarComponent {
   }
 
   isActive = false;
+
+
+ /*  scrollTo(componente: any) {
+    const posicion = componente.offsetTop;
+    window.scrollTo({ top: posicion, behavior: 'smooth' });
+  } */
+
 }
 

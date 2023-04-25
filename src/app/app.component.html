@@ -1,23 +1,85 @@
 <div>
-  <app-navbar></app-navbar>
+  <nav class="navbar d-flex flex-row justify-content-center bg-body-tertiary" id="navbar">
+    <div class="navbar-container d-flex flex-row justify-content-around align-items-center">
+      <div>
+        <button class="navbar-toggler btn no-focus"  (click)="toggleMenu()" data-toggle="button" aria-pressed="false" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bars"><i class="fas" [ngClass]="{'fa-bars': !showMenu, 'fa-times': showMenu}"></i></span>
+        </button>
+      </div>
+
+        <div class="navbar_container_image">
+          <img class="nabvar_logo_image"src="../../../assets/LligyGroup.png" alt="lligy-logo"/>
+        </div>
+        <div class="navbar_container_button_wahtsapp1">
+          <button class="navbar_btn_wahtsapp btn btn-ligth d-flex flex-row align-items-center gap-2"><img class="icono-whatsapp" src="../../../../assets/icono-whatsapp.png"/><span class="navbar_btn_wahtsapp_span--hidden">+51 999 411 512</span></button>
+         </div>
+      </div>
+      <div class="nabvar_container_ul collapse navbar-collapse mt-1" id="navbarSupportedContent">
+        <ul class="navbar-nav d-flex flex-column align-items-center">
+          <li class="nabvar_container_ul-li nav-item">
+            <a class="nav-link active" href="#" routerLink="/navbar" fragment="navbar" target="_parent">Inicio</a>
+          </li>
+          <li class="nabvar_container_ul-li nav-item ">
+            <a class="nav-link active"  href="#" routerLink="/about" fragment="about" target="_parent">Nosotros</a>
+          </li>
+          <li class="nabvar_container_ul-li nav-item">
+            <a class="nav-link active"  href="#" routerLink="/services" fragment="services" target="_parent">Servicios</a>
+          </li>
+          <li class="nabvar_container_ul-li nav-item ">
+            <a class="nav-link active" href="#" routerLink="/clients" fragment="clients" target="_parent">Clientes</a>
+          </li>
+          <li class="nabvar_container_ul-li nav-item ">
+            <a class="nav-link active"  href="#" routerLink="/contact" fragment="contact" target="_parent">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar_container--desktop d-flex flex-row justify-content-between w-100">
+        <div class="navbar_container_image--desktop">
+          <img class="nabvar_logo_image--desktop"src="../../../assets/LligyGroup.png" alt="lligy-logo"/>
+        </div>
+        <div class="nabvar_container_ul--desktop">
+          <ul class="navbar-nav--desktop me-auto mb-2 mb-lg-0">
+            <li class="nabvar_container_ul-li--desktop nav-item">
+              <a class="nav-link active" routerLink="/navbar" fragment="navbar" target="_parent">Inicio</a>
+            </li>
+            <li class="nabvar_container_ul-li--desktop nav-item ">
+              <a class="nav-link active" routerLink="/about" fragment="about" target="_parent">Nosotros</a>
+            </li>
+            <li class="nabvar_container_ul-li--desktop nav-item">
+              <a class="nav-link active" routerLink="/services" fragment="services" target="_parent">Servicios</a>
+            </li>
+            <li class="nabvar_container_ul-li--desktop nav-item ">
+              <a class="nav-link active" routerLink="/clients" fragment="clients" target="_parent">Clientes</a>
+            </li>
+            <li class="nabvar_container_ul-li--desktop nav-item">
+              <a class="nav-link active" routerLink="/contact" fragment="contact" target="_parent">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar_container_button_wahtsapp2">
+          <button class="navbar_btn_wahtsapp btn btn-ligth d-flex flex-row align-items-center gap-2"><img class="icono-whatsapp" src="../../../../assets/icono-whatsapp-desktops.png"/><span class="navbar_btn_wahtsapp_span--hidden">+51 999 411 512</span></button>
+         </div>
+      </div>
+  </nav>
+
 </div>
 <div>
   <app-carousel></app-carousel>
 </div>
 <div>
-  <app-about-and-services></app-about-and-services>
+  <app-about-and-services id="about"></app-about-and-services>
 </div>
 <div>
-  <app-our-services></app-our-services>
+  <app-our-services id="services"></app-our-services>
 </div>
 <div>
   <app-size-guide></app-size-guide>
 </div>
 <div class="mt-5">
-  <app-forms></app-forms>
+  <app-forms id="contact"></app-forms>
 </div>
 <div>
-  <app-our-clients></app-our-clients>
+  <app-our-clients id="clients"></app-our-clients>
 </div>
 <div>
   <app-footer></app-footer>

@@ -1,2 +1,196 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar-container {
+  width: 100%;
+}
+
+.nabvar_logo_image {
+  height: 50px;
+  width: 100px;
+}
+
+.navbar-nav{
+  background: var(--colorOrangeDark);
+  width: 100%;
+  margin-bottom: -1em;
+}
+
+.navbar_btn_wahtsapp {
+  border: none;
+  width: auto;
+  color: var(--colorOrangeDark);
+}
+
+.icono-whatsapp{
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-toggler:hover {
+  border: none !important;
+}
+
+.navbar-toggler-bars {
+  color: var(--colorOrangeDark);
+  height: 11.428571701049805px;
+  width: 15px;
+  border-radius: 0px;
+}
+
+
+
+.navbar_container_button_wahtsapp2{
+display:none;
+}
+.navbar_btn_wahtsapp_span--hidden {
+  display: none;
+  white-space: nowrap;
+}
+
+.nabvar_container_ul-li a{
+font-family: var(--tipografiaGeneral);
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+color:  #FFFFFF;
+}
+
+.nabvar_container_ul--desktop{
+  display: none;
+}
+
+.navbar_container_image--desktop{
+display: none;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+
+  .navbar_container--desktop{
+    padding: 0 5em;
+  }
+
+.navbar_container_image--desktop{
+  display: flex;
+  height: 50px;
+  width: 100px;
+}
+
+
+  .navbar_btn_wahtsapp_span--hidden {
+    display: block;
+  }
+
+  .navbar_container_button_wahtsapp1{
+    display:none;
+    }
+
+  .navbar_container_button_wahtsapp2 {
+    width: 14%;
+  }
+
+  .nabvar_container_ul-li--desktop{
+    font-family: var(--tipografiaGeneral);
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+color: #5F5F5F;
+  }
+
+  .navbar_btn_wahtsapp {
+    border: solid 1px var(--colorOrangeDark);
+    width: 170px;
+    color: var(--colorBlackDark);
+  }
+
+
+  .nabvar_container_ul {
+    display: none !important;
+  }
+
+
+  .nabvar_container_ul--desktop{
+display: flex;
+  }
+
+  .navbar-nav--desktop{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .navbar_container_button_wahtsapp2 {
+    display: flex;
+    width: 18%;
+  }
+
+  .navbar-toggler {
+    display: none !important;
+  }
+
+  .navbar_container_button_wahtsapp1{
+    display:none;
+    }
+
+    .navbar_container_image{
+      display: none;
+      }
+
+}
+
+
+
+@media only screen and (min-width: 1336px) {
+  .navbar_container_button_wahtsapp2 {
+    width: 15%;
+  }
+
+  .navbar_btn_wahtsapp {
+    width: 170px;
+  }
+
+  .navbar-nav {
+    gap: 3em;
+  }
+
+  .nav-item a {
+    font-size: 17px;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) {
+  .navbar_container_button_wahtsapp2 {
+    width: 16%;
+  }
+
+  .navbar_btn_wahtsapp {
+    width: 180px;
+  }
+
+
+
+  .nav-item a {
+    font-size: 18px;
+    }
+
+}
+
 
 

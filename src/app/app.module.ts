@@ -52,7 +52,6 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     CarouselModule,
     BrowserAnimationsModule,
     MdbAccordionModule,
-
     MdbCheckboxModule,
     MdbCollapseModule,
     MdbDropdownModule,
