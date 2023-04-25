@@ -39,10 +39,10 @@
 }
 
 .ourClients-container-logos--div{
-  height: auto;
-width: auto;
-padding: 5px;
-border: 1px solid #5F5F5F;
+    height: 38px;
+    width: 117px;
+    padding: 5px;
+    border: 1px solid #5F5F5F;
 }
 
 .ourClients-container-logos--div-paragraph{
@@ -112,7 +112,7 @@ height: 58px;
   font-style: italic;
   font-weight: 400;
   font-size: 10px;
-  line-height: 169.19%;
+  line-height: 16px;
 margin-top: 0em;
   color: #000000;
 }
@@ -153,8 +153,8 @@ border-radius: 50%;
   }
 
   .ourClients-container-logos--div{
-    height: 50px;
-  width: 120px;
+    height: 40px;
+    width: 120px;
   }
 
   .ourClients-container-logos--div-paragraph{
@@ -191,8 +191,8 @@ border-radius: 50%;
 
 
   .ourClients-container-logos--div{
-    height: 55px;
-  width: 125px;
+    height: 42px;
+    width: 123px;
   }
 
   .ourClients-container-logos--div-paragraph{
@@ -262,7 +262,7 @@ border-radius: 50%;
 
   .ourClients-container-logos--div{
     height: 55px;
-  width: 125px;
+  width: 150px;
   }
 
   .ourClients-container-logos-subContainer{
@@ -331,16 +331,16 @@ border-radius: 50%;
 
 
 .ourClients-container-logos{
-  gap: 8.5em;
+  gap: 3em;
 }
 
   .ourClients-container-logos--div{
     height: 65px;
-  width: 130px;
+  width: 200px;
   }
 
   .ourClients-container-logos-subContainer{
-    gap: 5.5em;
+    gap: 3em;
   }
 
   .ourClients-container-logos--div-paragraph{
@@ -361,7 +361,23 @@ border-radius: 50%;
     flex-direction: row;
   }
 
+  .ourClients-container-opinan-title--boxes-box {
+    width: 285px;
 }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .ourClients-container-opinan-title--boxes-box {
+    width: 330px;
+}
+
+.ourClients-container-logos--div{
+  height: 70px;
+width: 230px;
+}
+}
+
 
 
 @media only screen and (min-width: 1336px) {
@@ -378,16 +394,16 @@ border-radius: 50%;
 
 
 .ourClients-container-logos{
-  gap: 8.5em;
+  gap: 5em;
 }
 
-  .ourClients-container-logos--div{
-    height: 65px;
-  width: 130px;
-  }
+.ourClients-container-logos--div{
+  height: 75px;
+  width: 255px;
+}
 
   .ourClients-container-logos-subContainer{
-    gap: 8.5em;
+    gap: 5em;
   }
 
   .ourClients-container-logos--div-paragraph{

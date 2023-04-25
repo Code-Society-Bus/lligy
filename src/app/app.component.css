@@ -82,6 +82,10 @@ display: none;
   margin-top: 4em;
 }
 
+.nav-link:hover{
+  color: var(--colorOrangeDark);
+}
+
 @media only screen and (min-width: 1024px) {
 
   .navbar_container--desktop{
@@ -103,7 +107,7 @@ display: none;
     display:none;
     }
 
- 
+
   .nabvar_container_ul-li--desktop{
     font-family: var(--tipografiaGeneral);
 font-style: normal;
@@ -144,8 +148,8 @@ display: flex;
     width: 18%;
   }
 
-  
-  
+
+
   .navbar-toggler {
     display: none !important;
   }

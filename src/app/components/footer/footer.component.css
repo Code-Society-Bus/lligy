@@ -1,6 +1,6 @@
 
 .footer-container{
-  height: 600px;
+  height: auto;
 width: 100%;
   background: #DB6300;
 border-top: 3px dashed #FFFFFF;
@@ -32,6 +32,11 @@ border-bottom: 3px dashed #FFFFFF;
 border-radius: 0% !important;
 }
 
+.footer-form-container-div-input::placeholder{
+  font-family: var(--tipografiaGeneral);
+  font-size: 15px;
+}
+
 .footer-form-container-div-paragraph--paragraph{
   font-family: var(--tipografiaGeneral);
   font-style: normal;
@@ -52,9 +57,15 @@ border-radius: 0% !important;
 
 .footer-form-container-div-button--button{
   background: var(--colorOrangeDark);
+  font-family: var(--tipografiaGeneral);
   border-radius: 5px;
+  color: #e9e7e7;
+}
+
+.footer-form-container-div-button--button:hover{
   color: #FFFFFF;
 }
+
 
 .footer-container--container-two-icon{
   display: none;
@@ -78,6 +89,14 @@ line-height: 18px;
 color: #FFFFFF;
 }
 
+.footer-container--container-siguenos{
+  width: 100px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  flex-direction: column
+}
 
 .footer-container--container-siguenos-paragraph{
   font-family: var(--tipografiaGeneral);
@@ -86,13 +105,11 @@ font-weight: 700;
 font-size: 15px;
 line-height: 18px;
 color: #FFFFFF;
-display: flex;
-justify-content: center;
-flex-direction: column;
 }
 
 .footer-container--container-siguenos-icon{
 color: #FFFFFF;
+
 }
 
 .footer-container--container-three-title{
@@ -104,10 +121,13 @@ line-height: 18px;
 color: var(--colorOrangeDark);
 }
 
+
+
+
 @media only screen and (min-width: 768px) {
 
   .footer-container{
-    height: 627px;
+    height: auto;
   }
 
 .footer-container--container-two{
@@ -120,7 +140,8 @@ color: var(--colorOrangeDark);
   .footer-container--container-two-icon{
     display: flex;
     height: 100px;
-width: 200px;
+    width: 200px;
+    margin-left: 1em;
   }
 
 
@@ -140,6 +161,11 @@ width: 200px;
     font-size: 16px;
     }
 
+    .footer-container--container-siguenos{
+      margin-left: 0;
+      margin-right: 0;
+
+    }
 
 }
 

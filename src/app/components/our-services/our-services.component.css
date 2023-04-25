@@ -1,4 +1,6 @@
-
+.ourService{
+  margin-bottom: 4em;
+}
 .ourService-container--img-containers{
   display: flex;
   flex-direction: column;
