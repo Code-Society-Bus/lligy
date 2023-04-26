@@ -89,6 +89,10 @@ line-height: 18px;
 color: #FFFFFF;
 }
 
+.footer-container--container-two-date-direction:hover{
+  color: #e9e7e7;
+}
+
 .footer-container--container-siguenos{
   width: 100px;
   display: flex;
@@ -109,7 +113,10 @@ color: #FFFFFF;
 
 .footer-container--container-siguenos-icon{
 color: #FFFFFF;
+}
 
+.footer-container--container-siguenos-icon:hover{
+  color: #e9e7e7;
 }
 
 .footer-container--container-three-title{

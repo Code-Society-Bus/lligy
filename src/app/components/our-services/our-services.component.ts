@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./our-services.component.css']
 })
 export class OurServicesComponent {
-
+  hovering = false;
+  hovering2 = false;
+  hovering3 = false;
+  hovering4 = false;
 }

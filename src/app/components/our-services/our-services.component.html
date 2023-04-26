@@ -1,54 +1,198 @@
 <div class="ourService container d-flex flex-column mt-5">
   <div class="ourService-container d-flex align-items-center">
     <div class="ourService-container--title--div">
-    <div class="ourService-container-title">
-      <h2 class="ourService-title">Nuestros Servicios</h2>
+      <div class="ourService-container-title">
+        <h2 class="ourService-title">Nuestros Servicios</h2>
+      </div>
+      <div class="ourService-line-dashed"></div>
     </div>
-    <div class="ourService-line-dashed"></div>
   </div>
-</div>
-<div class="ourService-container--img-containers mt-4">
-  <div class="ourService-container--img-two-container">
-    <div class="ourService-container--img-services">
-      <div class="ourService-container my-3">
-        <img  class="ourService-container-img" src="../../../assets/our-services/bordado-computarizado.png"/>
-        </div>
-        <div class="ourService-container-container">
-          <p class="ourService-container-container-paragraph">BORDADO COMPUTARIZADO</p>
-          <div class="ourService-container-container-line"></div>
-        </div>
-        </div>
-      <div class="ourService-container--img-services">
-
-        <div class="ourService-container my-3">
-          <img  class="ourService-container-img" src="../../../assets/our-services/uniformes-escolares.png"/>
+  <div class="ourService-container--img-containers mt-4">
+    <div class="ourService-container--img-two-container">
+      <div
+        class="ourService-container--img-services"
+        (mouseenter)="hovering = true"
+        (mouseleave)="hovering = false"
+      >
+        <div *ngIf="!hovering">
+          <div class="ourService-container my-3">
+            <img
+              class="ourService-container-img"
+              src="../../../assets/our-services/bordado-computarizado.png"
+            />
           </div>
           <div class="ourService-container-container">
-            <p class="ourService-container-container-paragraph">UNIFORMES ESCOLARES</p>
+            <p class="ourService-container-container-paragraph">
+              BORDADO COMPUTARIZADO
+            </p>
             <div class="ourService-container-container-line"></div>
           </div>
-          </div>
-  </div>
-<div class="ourService-container--img-two-container">
-  <div class="ourService-container--img-services">
-    <div class="ourService-container my-3">
-      <img  class="ourService-container-img" src="../../../assets/our-services/uniformes-empresariales.png"/>
-      </div>
-      <div class="ourService-container-container">
-        <p class="ourService-container-container-paragraph">UNIFORMES EMPRESARIALES</p>
-        <div class="ourService-container-container-line"></div>
-      </div>
         </div>
-        <div class="ourService-container--img-services">
-        <div class="ourService-container my-3">
-          <img  class="ourService-container-img" src="../../../assets/our-services/uniformes-publicitarios.png"/>
+      <div class="ourService-container--img-services div-2" *ngIf="hovering">
+        <div class="div-2-img-icono">
+         <img  class="div-2-img-icono--img" src="../../../assets/logo-lligy-blanco.png"/>
+        </div>
+        <div>
+         <p class="ourService-container-container-paragraph-hover">
+           BORDADO COMPUTARIZADO
+         </p>
+         <div class="ourService-container-container-line-hover"></div>
+        </div>
+        <div class="ourService-container-container-informacion-hover">
+          <p>
+            Realizamos de bordados de prendas arnadas o en cortes. Bordamos:
+          </p>
+          <div class="d-flex flex-row">
+            <ul>
+              <li>Parches</li>
+              <li>Vestidos</li>
+              <li>Polos</li>
+              <li>Chalecos</li>
+            </ul>
+            <ul>
+              <li>Camisas</li>
+              <li>Casacas</li>
+              <li>Mandiles</li>
+              <li>Uniformes, etc</li>
+            </ul>
+          </div>
+<p>Amplia gama de productos.</p>
+
+        </div>
+      </div>
+       </div>
+      <div
+        class="ourService-container--img-services"
+        (mouseenter)="hovering2 = true"
+        (mouseleave)="hovering2 = false"
+      >
+        <div *ngIf="!hovering2">
+          <div class="ourService-container my-3">
+            <img
+              class="ourService-container-img"
+              src="../../../assets/our-services/uniformes-escolares.png"
+            />
           </div>
           <div class="ourService-container-container">
-            <p class="ourService-container-container-paragraph">UNIFORMES PUBLICITARIOS</p>
+            <p class="ourService-container-container-paragraph">
+              UNIFORMES ESCOLARES
+            </p>
             <div class="ourService-container-container-line"></div>
           </div>
+        </div>
+        <div class="ourService-container--img-services div-2" *ngIf="hovering2">
+          <div class="div-2-img-icono">
+            <img  class="div-2-img-icono--img" src="../../../assets/icono-camisa-blanco.png"/>
+           </div>
+           <div>
+            <p class="ourService-container-container-paragraph-hover">
+              UNIFORMES ESCOLARES
+            </p>
+            <div class="ourService-container-container-line-hover"></div>
+           </div>
+           <div class="ourService-container-container-informacion-hover">
+            <div class="d-flex flex-row">
+              <ul>
+                <li>Busos</li>
+                <li>Polos</li>
+                <li>Camisas</li>
+                <li>Uniformes Deportivos</li>
+                <li>Casacas</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ourService-container--img-two-container">
+      <div
+        class="ourService-container--img-services"
+        (mouseenter)="hovering3 = true"
+        (mouseleave)="hovering3 = false"
+      >
+        <div *ngIf="!hovering3">
+          <div class="ourService-container my-3">
+            <img
+              class="ourService-container-img"
+              src="../../../assets/our-services/uniformes-empresariales.png"
+            />
+          </div>
+          <div class="ourService-container-container">
+            <p class="ourService-container-container-paragraph">
+              UNIFORMES EMPRESARIALES
+            </p>
+            <div class="ourService-container-container-line"></div>
+          </div>
+        </div>
+        <div class="ourService-container--img-services div-2" *ngIf="hovering3">
+          <div class="div-2-img-icono">
+            <img  class="div-2-img-icono--img" src="../../../assets/icono-uniformes.png"/>
+           </div>
+           <div>
+            <p class="ourService-container-container-paragraph-hover">
+              UNIFORMES EMPRESARIALES
+            </p>
+            <div class="ourService-container-container-line-hover"></div>
+           </div>
+           <div class="ourService-container-container-informacion-hover">
+            <div class="d-flex flex-row">
+              <ul>
+                <li>Camisas y blusas</li>
+                <li>Polos y camiseros</li>
+                <li>Sastre</li>
+                <li>Pantalones</li>
+                <li>Casacas</li>
+                <li>Uniformes para Instituciones (Policias, Bomberos, etc.)</li>
+                <li>Uniformes deportivos para eventos</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ourService-container--img-services"
+        (mouseenter)="hovering4 = true"
+        (mouseleave)="hovering4 = false"
+      >
+        <div *ngIf="!hovering4">
+          <div class="ourService-container my-3">
+            <img
+              class="ourService-container-img"
+              src="../../../assets/our-services/uniformes-publicitarios.png"
+            />
+          </div>
+          <div class="ourService-container-container">
+            <p class="ourService-container-container-paragraph">
+              UNIFORMES PUBLICITARIOS
+            </p>
+            <div class="ourService-container-container-line"></div>
+          </div>
+        </div>
+        <div class="ourService-container--img-services div-2" *ngIf="hovering4">
+          <div class="div-2-img-icono">
+            <img  class="div-2-img-icono--img" src="../../../assets/uniformes-publicitarios-icono.png"/>
+           </div>
+           <div>
+            <p class="ourService-container-container-paragraph-hover">
+              UNIFORMES PUBLICITARIOS
+            </p>
+            <div class="ourService-container-container-line-hover"></div>
+           </div>
+           <div class="ourService-container-container-informacion-hover">
+            <div class="d-flex flex-row">
+              <ul>
+                <li>Mandiles</li>
+                <li>Polos y camiseros</li>
+                <li>Pantalones</li>
+                <li>Gorros</li>
+                <li>Uniformes de cocina</li>
+                <li>Guardapolvos <br/>
+                  Bordados, estampados, y sublimados</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-
-

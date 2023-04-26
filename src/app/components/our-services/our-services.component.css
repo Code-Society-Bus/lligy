@@ -80,8 +80,66 @@ background: var(--colorOrangeTransparent);
   color: #FFFFFF;
 }
 
+/* hover */
 
+.div-2{
+  position: relative;
+  height: 233px;
+  width: 300px;
+  background: #DB6300;
+}
 
+.div-2-img-icono--img{
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+.ourService-container-container-paragraph-hover{
+  margin-left: 1.7em;
+  margin-top: 1em;
+  font-family: var(--tipografiaGeneral);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.ourService-container-container-line-hover{
+    width: 17%;
+    top: 86px;
+    margin-left: 1.9em;
+    border: 2px solid var(--colorOrangeLigth);
+    position: absolute;
+}
+
+.ourService-container-container-informacion-hover{
+  margin-left: 1.9em;
+  font-family: var(--tipografiaGeneral);
+  color: #FFFFFF;
+}
+
+.ourService-container-container-informacion-hover li {
+  list-style:disc !important;
+  font-family: var(--tipografiaGeneral);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.ourService-container-container-informacion-hover p {
+  font-family: var(--tipografiaGeneral);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+margin-bottom: 3px;
+}
+
+/* hover */
 
 @media only screen and (min-width:375px) {
   .ourService-title{
@@ -100,6 +158,10 @@ background: var(--colorOrangeTransparent);
     width: 310px;
   }
 
+  .div-2{
+    height: 235px;
+    width: 310px;
+  }
 
   }
 
@@ -118,6 +180,11 @@ background: var(--colorOrangeTransparent);
 
 
   .ourService-container-img{
+    height: 240px;
+    width: 320px;
+  }
+
+  .div-2{
     height: 240px;
     width: 320px;
   }
@@ -151,6 +218,11 @@ background: var(--colorOrangeTransparent);
       width:100%;
     }
 
+    .div-2{
+      height: 240px;
+      width:100%;
+    }
+
     .ourService-container--img-services{
       width: 300px;
     }
@@ -167,7 +239,7 @@ background: var(--colorOrangeTransparent);
 
       }
 
-      ourService-container--img-services
+
 
           .ourService-title{
             font-size: 20px;
@@ -185,6 +257,10 @@ background: var(--colorOrangeTransparent);
 
           .ourService-container-img{
 width: 100%;
+          }
+
+          .div-2{
+            height: 240px;
           }
 
           .ourService-container--img-services{
@@ -205,8 +281,10 @@ width: 100%;
             .ourService-container--img-containers{
               display: flex;
               flex-direction: row;
-              gap: 2em;
+              gap: 5em;
             }
+
+
 
                 .ourService-title{
                   font-size: 25px;
@@ -220,8 +298,8 @@ width: 100%;
 
 
                 .ourService-container-img{
-                  height: 240px;
-                  width:100%;
+                  height: 280px;
+                width: 280px;
                 }
 
                 .ourService-container--img-services{
@@ -240,7 +318,17 @@ width: 100%;
                 }
 
                 .ourService-container-container{
-                  top: 70.5%;
+                  top: 87.5%;
+                  }
+
+
+          .div-2{
+            width: 273px;
+            height: 280px;
+          }
+
+                  .ourService-container-container-paragraph-hover{
+                    font-size: 15px;
                   }
                 }
 
@@ -265,7 +353,6 @@ width: 100%;
 
 
                       .ourService-container-img{
-                        height: 249px;
                         width:100%;
                       }
 
